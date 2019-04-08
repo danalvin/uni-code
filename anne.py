@@ -16,7 +16,7 @@ def grades():
     new_grade = int(grades)
     if new_grade > 100:
         print("Please input a value under 100")
-        grades()
+        grad()
     elif new_grade >= 70:
         print ("You have the grade A, Congrats")
     elif 70 > new_grade >= 60:
